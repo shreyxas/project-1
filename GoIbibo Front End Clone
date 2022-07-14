@@ -1,0 +1,157 @@
+<html>
+<head><title>Airline Ticket system</title>
+<link rel="stylesheet" href="LABFAT.css" type="text/css">
+<script type="text/javascript">
+function fticket()
+{
+ if(document.f1.from.value==""){
+ window.alert ("Please select Departure Airport!");
+ return false;}
+
+ if(document.f1.dest.value==""){
+ window.alert ("Please select Arrival Airport!");
+ return false;}
+
+ if(document.f1.dept.value==""){
+ window.alert ("Please select Departure Date!");
+ return false;}
+ if(document.f1.return.value==""){
+ window.alert ("Please select Return Date!");
+ return false;}
+var go=document.f1.from.value;
+var come=document.f1.come.value;
+var god=document.f1.dept.value;
+var comd=document.f1.return.value;
+window.alert("Congrats!!! you have booked ticket from
+"+go+" To" + come +" which will depart on" +god);
+}
+</script>
+</head>
+<body bgcolor="blue" text="white">
+<h1><font-color:white>Book Domestic and International
+Flight</font></h1><br>
+<form name="f1">
+<marquee>Welcome to online plane ticket booking
+portal</marquee>
+<input type="radio" value="roundtrip" name="roundt">ROUND
+TRIP<checked>
+<input type="radio" value="oway" name="oway">ONE-WAY
+<input type="radio" value="multic"
+name="multicity">MULTICITY (NEW!!)
+<br>
+<br>
+<Input type="Text" placeholder="From:City or Airport"
+name="from" size=56>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<Input type="Text" placeholder="To:City or Airport"
+name="dest" size=59>
+<br>
+<br>
+<br>
+Depart:
+<Input type="date" placeholder="Choose Date" name="dept">
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Return:
+<Input type="date" placeholder="Choose Date"
+name="return">
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Travellers(Max 4)
+<select>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Class:
+<select>
+<option>Economy</option>
+<option>Business Class</option>
+<option>First Class</option>
+<option>Executive Class</option>
+</select>
+<br>
+<br>
+<br>
+<input type="checkbox" name="sfare">Show Student Fare Only
+NEW!!!<br>
+<br>
+<input type="checkbox" name="pchange">Alert Me When
+Price Changes
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<input type="submit" onclick="fticket()">
+</form>
+</body>
+</html> 
