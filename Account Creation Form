@@ -1,0 +1,95 @@
+<html>
+<body bgcolor="yellow">
+<marquee direction=left bgcolor="red">Welcome to studyabroad education
+portal</marquee>
+<h2><center>CREATE YOUR ACCOUNT NOW</center><h2>
+<form>
+<fieldset>
+<center>
+<input type="email" placeholder="Email" size="40">
+<br>
+<br>
+<input type="password" placeholder="Password" size="40">
+<br>
+<br>
+<input type="password" placeholder="Confirm Password" size="40">
+<br>
+<br>
+<a href= "part2da1.html">NEXT</a>
+</center>
+</fieldset>
+</body>
+</html>
+CODE FOR HTML FILE 2(part2da1.html)
+<html>
+<body bgcolor="yellow">
+<marquee direction=left bgcolor="orange">Welcome to studyabroad
+education portal</marquee>
+<h2><center>EDUCATIONAL PROFILES</center><h2>
+<form>
+<fieldset>
+<center>
+<label for="education"></label>
+ <select id="cars" name="cars">
+ <option value="CBSE">CBSE</option>
+ <option value="ICSE">ICSE</option>
+ <option value="State Board" selected>State Board</option>
+ </select>
+<br>
+<br>
+<input type="number" placeholder="Marks Obtained(CGPA)" size="50">
+<br>
+<br>
+<input type="number" placeholder="Passing Year" size="40">
+<br>
+<br>
+<input type="text" placeholder="Name of University" size="40">
+<br>
+<br>
+<a href= "part1da1.html">BACK</a>&nbsp;&nbsp;<a href=
+"part3da1.html">NEXT</a>
+</center>
+</fieldset>
+</body>
+</html>
+CODE FOR HTML FILE 3(part3da1.html)
+<html>
+<body>
+<marquee direction=left bgcolor="blue">Welcome to studyabroad education
+portal</marquee>
+<h2><center>PERSONAL DETAILS</center><h2>
+<form>
+<center>
+<fieldset>
+<input type="text" placeholder="First Name" size="40">
+<br>
+<br>
+<input type="text" placeholder="Last Name" size="40">
+<br>
+<br>
+<input type="number" placeholder="Contact Number" size="10">
+<br>
+<br>
+<p> Please enter your gender</p>
+<input type="radio" id="g" name="fav_gender" value="Male">
+<label for="male">Male</label><br>
+<input type="radio" id="f" name="fav_gender" value="Female">
+<label for="Female">Female</label><br>
+<br>
+<br>
+<input type="Address" placeholder="Address" size="100">
+<br>
+<br>
+<a href= "part2da1.html">BACK</a> &nbsp;&nbsp;<a href= "
+part4da1.html">NEXT</a>
+</center>
+</fieldset>
+</body>
+</html>
+CODE FOR HTML FILE 4(part4da1.html)
+<html>
+<body bgcolor="Yellow">
+<p> Thank you for using our portal, our support team will contact you soon
+with more details regarding your application...........<p>
+</body>
+</html>
