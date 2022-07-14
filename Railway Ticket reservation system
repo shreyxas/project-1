@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" href="da2.css" type="text/css">
+<title>TICKET RESERVATION PORTAL</title>
+<script type="text/javascript">
+var res,q;
+function generate()
+{
+ if(document.f1.fname.value=="")
+ window.alert("please fill the value of first name");
+ return false();
+
+ var gem=parseInt(document.f1.pas.value);
+ res= " The total you have to pay for your trip is" +
+gem*1000;
+ if (gem>5)
+ window.alert("sorry,we dont have these many tickets
+available");
+ else
+ window.alert(res);
+ if(document.f1.sname.value=="")
+ window.alert("please fill the value of second name");
+ return false();
+
+ if(document.f1.age.value=="")
+ window.alert("please fill the value of your age");
+ return false();
+
+ if(document.f1.d1.value=="")
+ window.alert("please fill the date you want to
+travel");
+ return false();
+
+
+ if(document.f1.pas.value=="")
+ window.alert("please fill the number of passengers
+travelling");
+ return false();
+
+}
+</script>
+</head>
+<body text="black" bgcolor="orange">
+<form name="f1">
+<fieldset>
+<center>
+<marquee> Welcome to irctc railway ticket reservation
+portal!A government of india initiative</marquee>
+<img src="train.jpg" align="center"><br>
+<img src="irctc.jpg">
+<br>
+<p>Disclaimer:management is not responsible for any
+loss in connection incurre while booking a ticket.If any
+case like this arises please contact irctc railway helpine
+board for further help. Additionally,management is not
+responsible for
+any errors while filling the details of the person and
+any wrongdoing is punishable under IPC 234 of the
+Indian penal code</p>
+<h1> IRCTC TICKET PORTAL</h1>
+<br>
+<br>
+<b>FIRST NAME:<input type="text" placeholder="First
+name" name="fname"><br>
+<br>
+SECOND NAME:<input type="text"
+placeholder="Second name is" name="sname"><br>
+<br>
+AGE OF TRAVELLER:<input type="number"
+placeholder="Age is" name="age"><br>
+</b>
+<br>
+<i><center><b>Enter city details</b></center></i>
+<br>
+<table>
+<tr><td><b>From(Start city)</b><br>
+<select>
+<option name="dl">Delhi</option>
+<option name="lu">Ludhiana</option>
+<option name="blr">Bangalore</option>
+<option name="cn">Chennai</option>
+<option name="hyd">Hyderabad</option>
+</select></td>&nbsp;&nbsp;&nbsp;
+<td><b>To(Destination city)</b><br>
+<select>
+<option name="dl">Delhi</option>
+<option name="lu">Ludhiana</option>
+<option name="blr">Bangalore</option>
+<option name="cn">Chennai</option>
+<option name="hyd">Hyderabad</option>
+</select></td></tr>
+</table>
+<br>
+<center><b>Select trip type:</b></center>
+<b>One-Way</b><input type="radio" value="Oneway" name="ow" id="ow">&nbsp;&nbsp;<b>RoundTrip</b><input type="radio" value="round trip"
+name="rt" id="rt">
+<br>
+<table>
+<tr><td><center><b>Enter Start Date:<br><input
+type="date" placeholder="starting date"
+name="d1"></b></center></td>&nbsp;&nbsp;</tr>
+</table>
+<br>
+<br>
+<b>Please enter number of passengers:</b><input
+type="number" placeholder="subject to availability"
+name="pas"><br>
+<br>
+<br>
+<input type="button" value="SUBMIT"
+onclick="generate()">
+<input type="reset" value="CLEAR"><br>
+<br>
+</fieldset>
+</form>
+</body>
+</html>
