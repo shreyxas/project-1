@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>Online Gas Booking System DA120BDS0390</title>
+<link rel="stylesheet" href="da1.css" type="text/css">
+<script type="text/javascript">
+var cost;
+function generate()
+{
+ var q=parseInt(document.f1.qty.value);
+ var rate=850;
+ cost=q*rate;
+window.alert("Thank you for using our portal...the total you have to pay is
+"+cost+" order activity will be communicated on your phone...and delivery
+partner will be assigned shortly");
+if(document.f1.name.value=="")
+window.alert("please fill the value of first name");
+return false();
+ if(document.f1.a.value=="")
+window.alert("please fill the value of address");
+return false();
+if(document.f1.cid.values=="")
+window.alert("please fill the value of customer id");
+return false();
+if(document.f1.num.value=="")
+window.alert("please fill details of number");
+return false();
+if(document.f1.qty.value=="")
+window.alert("please fill the quantity to be ordered");
+return false();
+}
+</script>
+</head>
+<body>
+<nav class="navbar background">
+<ul class="nav-list">
+<div class="logo">
+<img src= "hp.jpg">
+</div>
+<li><a
+href="https://www.google.co.in/search?q=Nowruz&oi=ddle&ct=174788805&hl=
+en&sa=X&ved=0ahUKEwji4IDAztT2AhXpyosBHVkkCiwQPQgC&biw=1280&bih=60
+1&dpr=1.5"><center>Register</center></a></li>
+<li><a
+href="https://www.google.co.in/search?q=Nowruz&oi=ddle&ct=174788805&hl=
+en&sa=X&ved=0ahUKEwji4IDAztT2AhXpyosBHVkkCiwQPQgC&biw=1280&bih=60
+1&dpr=1.5">KYC Verification</a></li>
+<li><a
+href="https://www.google.co.in/search?q=Nowruz&oi=ddle&ct=174788805&hl=
+en&sa=X&ved=0ahUKEwji4IDAztT2AhXpyosBHVkkCiwQPQgC&biw=1280&bih=60
+1&dpr=1.5">Locate Distributor</a></li>
+<li><a
+href="https://www.google.co.in/search?q=Nowruz&oi=ddle&ct=174788805&hl=
+en&sa=X&ved=0ahUKEwji4IDAztT2AhXpyosBHVkkCiwQPQgC&biw=1280&bih=60
+1&dpr=1.5">Change Details</a></li>
+<li><a
+href="https://www.google.co.in/search?q=Nowruz&oi=ddle&ct=174788805&hl=
+en&sa=X&ved=0ahUKEwji4IDAztT2AhXpyosBHVkkCiwQPQgC&biw=1280&bih=60
+1&dpr=1.5">Book Cylinder</a></li>
+</ul>
+<div class="rightNav">
+<input type="text" name="search" id="search" placeholder="Hp Search">
+<button>Search</button>
+</div>
+</nav>
+<Marquee direction="right"> <font face="calibri">Welcome to HP Online E-Gas
+Portal</font></marquee>
+<section class="firstsection">
+<div class="box-main">
+<div class="firstHalf">
+<center><h1>Online Gas Booking System</h1></center>
+<form name="f1">
+<center>
+<table>
+<tr><td><font color="white">NAME:</font></td><td><input type="text"
+name="name" placeholder="NAME"></td><br>
+<tr><td><font color="white">CUSTOMER ID:</font></font></td><td><input
+type="text" placeholder="CUSTOMER ID" name="cid"></td><br>
+<tr><td><font color="white">ADDRESS:</font></td><td><input type="text"
+placeholder="ADDRESS" name="a"></td><br>
+<tr><td><font color="white">MOBILE NO:</font></td><td><input
+type="number" placeholder="MOBILE" name="num"></td><br>
+<tr><td><font color="white">CYLINDER QTY:</font></td><td><input type="text"
+name="qty" placeholder="QUANTITY OF CYLINDER"</TD></tr>
+<tr><td><font color="white">CYLINDER DELIVERY
+METHOD:</font></td><td><select placeholder="DELIVERY TYPE"><br><option
+>PICKUP FROM CENTER</option><option>HOME
+DELIVERY</option></select></td><br>
+<tr><td><font color="white">PAYMENT METHOD:</font></td><td><select
+><br><option>CARD</option><option>UPI/PAYTM</option><option>CASH ON
+DELIVERY</option></select></td><br>
+</table>
+<center><input type="button" onclick="generate()"
+value="SUBMIT">&nbsp;&nbsp;</td><td><input type="reset"
+value="CLEAR"></center>
+</center>
+</form>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="paras">
+<h1 class="sectionTag text-big">About Us</h1>
+<p>Hindustan Petroleum Corporation Limited (HPCL) is a subsidiary of Oil and
+Natural Gas Corporation which is under the ownership of Ministry of Petroleum
+and Natural Gas of the Government of India with its headquarters in Mumbai,
+Maharashtra.
+</p>
+</div>
+<div class="extra">
+<img src= "cyl.jpg">
+</div>
+</section>
+<footer class="background">
+<p class="text-footer">
+<center><font face="calibri" color="white">Copyright @Hindustan Petroleum
+pvt.ltd 2022</font></center><br>
+<br>
+<br>
+<center><font face="calibri" color="white">Follow us on social
+media:</font><br></center><br>
+<center><a href="https://www.instagram.com/hpcl/?hl=en"><img src="ig.jpg"
+align="center" height="50" width="50"></a>&nbsp;&nbsp;<a
+href="https://www.facebook.com/hpcl/"><img src="fb.jpg" align="center"
+height="50" width="50"></a><br></center>
+</p>
+</footer>
+</body>
+</html>
+CODE FOR CSS NOTEP
