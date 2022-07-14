@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Project</title>
+<script type="text/javascript">
+var rem;
+function gen()
+{
+  var a=parseInt(document.f1.su.value);
+  var b=parseInt(document.f1.eu.value);
+  var rate=5;
+  rem=b-a;
+  var cost= rem*rate; 
+  document.f1.billno.value=cost;
+  window.alert("the cost you have to pay for 10"+" unit is   "+res); 
+ 
+  
+  if (document.f1.csno.value=="")
+  alert("please enter consumer number!!");
+  return false()
+
+  
+  if (document.f1.cno.value=="")
+  alert("please enter consumer mobile number!!");
+  return false()
+  
+  if (document.f1.bdate.value=="")
+  alert("please enter consumer birthday!!");
+  return false()
+  
+  if (document.f1.su.value=="")
+  alert("please enter starting unit!!");
+  return false()
+  
+  if (document.f1.eu.value=="")
+  alert("please enter ending unit!!");
+  return false()
+ 
+  
+}
+</script>
+</head>
+<body bgcolor="red">
+<form name ="f1">
+<marquee> Consumer Electricity form</marquee>
+<h1><center>CONSUMER ELECTRICITY BOARD</center></H1>
+<fieldset>
+<legend>Please enter your details</legend>
+<center>
+Consumer Number:<input type="number" name="csno" id="csno" placeholder="consumer number"><br>
+<br>
+Consumer Mobile Number:<input type="number" name="cno" id="cno" placeholder="consumer mobile number"><br>
+<br>
+Billing Date:<input type="date" name="bdate" id="bdate" placeholder="Date of billing"><br>
+<br>
+Starting Unit Number:<input type="number" name="su" id="su" placeholder="Starting unit number"><br>
+<br>
+Ending Unit Number:<input type="number" name="eu" id="eu" placeholder="Ending Unit Number"><br>
+<br>
+<br>
+<input type="submit" onclick="gen()">
+<br>
+<br>
+<table border=2>
+<caption><b>USER DETAILS</b></caption>
+<tr bgcolor="yellow"><th>Mobile Number</th><th>User Name</th><th>Starting Units</th><th>Ending Units</th><th>Bill Amount</th></tr>
+<tr><td><input type="text" id="billno" name="billno"></td><td><input type="text" id="csno" name="csno"></td><td><input type="text" id="su" name="su"></td><td><input type="text" id="eu" name="eu" ></td><td><input type="text" id="billno" name="billno"></td></tr>
+</form>
+</body>
+</html>
